@@ -10,6 +10,7 @@ phases:
       - test -f index.html
       - test -f styles.css
       - echo "Packaging the release"
+      
 artifacts:
   files:
     - '**/*'
